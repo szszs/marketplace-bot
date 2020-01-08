@@ -1,0 +1,7 @@
+{
+    "account_cookie_name" : ".COOKIE",
+    "base_url" : "https://www.market.com",
+    "home_url" : "https://www.market.com/home",
+    "inventory_url" : "https://inventory.market.com",
+    "marketplace_api" : "http://api.market.com/marketplace"
+}
