@@ -17,23 +17,23 @@ class MarketAPI(object):
 	...
 
 	Attributes
-    ----------
-    session : requests.Session
-        the main session with account cookies
+	----------
+	session : requests.Session
+		the main session with account cookies
 	check_session : requests.Session
 		a session used to access API endpoints where a logged in
 		user is not needed (ex. checking item price)
-    xsrf_token : str
-        cached value of the most recent "X-CSRF-TOKEN" header received
-    username : str
+	xsrf_token : str
+		cached value of the most recent "X-CSRF-TOKEN" header received
+	username : str
 		the username of the current logged in account
 	userId : str
 		the user ID of the current logged in account
 
-    Methods
-    -------
-    startSessionNoLogin()
-        Creates the Session instances for the bot.
+	Methods
+	-------
+	startSessionNoLogin()
+		Creates the Session instances for the bot.
 	changeCookie(cookie)
 		Changes the account cookie for the bot to use.
 	getCurrentUser()

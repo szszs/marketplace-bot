@@ -13,7 +13,7 @@ class ItemSnipe(object):
 	...
 
 	Attributes
-    ----------
+	----------
 	botClient : MarketAPI.MarketAPI
 		the MarketAPI instance used to interface with the marketplace API
 	cookie : str
@@ -42,7 +42,7 @@ class ItemSnipe(object):
 			the interval between log messages, in seconds
 
 	Methods
-    -------
+	-------
 	checkAndSnipe()
 		Checks the price of the item and purchases it if the price is right.
 	restartSession()
